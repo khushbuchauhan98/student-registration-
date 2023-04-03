@@ -37,11 +37,11 @@ function submit(){
      
     })
     if(email.value==''){
-        alert('input blanck')
+        alert('input field is blanck')
         name.value=""
     }
     else if( name.value==''){
-        alert('input blanck')
+        alert('input field is blanck')
         email.value=""
     }
     else if(emailchecl.length == 0 )
