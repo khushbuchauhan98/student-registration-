@@ -52,7 +52,7 @@ function submit(){
         name.value=""
     }
     else{
-        alert('same emai exist')
+        alert('same email exist')
     }
    render()
     // let ab= document.getElementById('user')
