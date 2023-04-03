@@ -1,0 +1,64 @@
+body{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+display: flex;
+justify-content: space-between;
+}
+.left{
+    width: 550px;
+    margin: 50px auto;
+   
+}
+.add{
+    width: 450px;
+    
+    /* border: 1px solid black; */
+    padding: 10px;
+    
+    border-radius: 12px;
+}
+.right{
+    /* display: none; */
+    width: 450px;
+    height: 100vh;
+    /* height: 100%; */
+    padding: 12px;
+    background-color: rgba(197, 78, 78, 0.76);
+    box-sizing: border-box; 
+}
+input{
+    width: 100%;
+    margin-bottom: 12px;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 12px;
+    border: 1px solid lightgray;
+}
+.btn{
+    background-color: black;
+    color: white;
+    padding: 16px 36px;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.students{
+    /* width: 450px;
+    padding: 12px;
+    background-color: black;
+    box-sizing: border-box; */
+}
+.user {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding: 0 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
